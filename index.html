@@ -396,7 +396,7 @@ function contactHTML(){return `
   <span class="lab"><b>●</b> CONTACT</span>
   <h2 class="rv">Have a project<br>in mind?<br><em>Let's work together.</em></h2>
   <div class="cgrid">
-    <div class="c-l rv"><p>제안서, 발표자료, IR, 회사소개서, PPT 교육까지. 프로젝트 내용을 남겨주시면 확인 후 회신드리겠습니다.</p>
+    <div class="c-l rv"><p>제안서, 발표자료, IR, 회사소개서, PPT 교육까지.<br>프로젝트 내용을 남겨주시면 확인 후 회신드리겠습니다.</p>
       <div class="mailbox"><code id="mailtxt">${CONFIG.email?esc(CONFIG.email):'이메일 주소 준비 중'}</code>
         <span style="display:flex;gap:8px"><button class="mini" id="copymail" ${CONFIG.email?'':'disabled'}>COPY</button><a class="mini" id="directmail" ${CONFIG.email?`href="mailto:${esc(CONFIG.email)}"`:'aria-disabled="true"'}>DIRECT EMAIL</a></span></div></div>
     <div class="c-r rv"><form id="cf" novalidate>
